@@ -43,7 +43,7 @@ class Start extends Phaser.Scene {
         my.text.controls.setCenterAlign();
 
         this.input.keyboard.on('keydown-S', (event) => {
-            this.scene.start("galleryLevelBoss", {score: this.startScore});
+            this.scene.start("galleryLevel1", {score: this.startScore});
         });
     }
 }
